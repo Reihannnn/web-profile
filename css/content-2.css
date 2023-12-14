@@ -1,0 +1,53 @@
+/* .content-2{
+  max-width: 800px;
+  margin: auto;
+  background-color: aqua;
+  
+} */
+
+.judul-hobby{
+  background-color: rgb(158, 158, 158);
+  width: 99.3%;
+  text-align: center;
+  padding: 4px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 2rem;
+}
+
+.card{
+  box-shadow: 0 0 6px 1.5px rgb(207, 206, 206);
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  margin-bottom: 5px  ;
+  background-color: rgba(126, 126, 126, 0.469);
+}
+
+.display-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.foto-hobby{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.nama-hobby{
+  text-align: center;
+}
+
+.title-hobby{
+  margin-bottom: 12px;
+  margin-left: 10px;
+  margin-right: 10px;
+  text-align:start;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+

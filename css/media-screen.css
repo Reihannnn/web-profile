@@ -1,0 +1,62 @@
+@media only screen and (max-width: 650px) {
+  .introduce-profile{
+    width: 88%;
+  }
+
+  .title-profile{
+    width: 88%;
+  }
+
+  
+.display-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  gap: 30px;
+  width: 88%;
+}
+
+.judul-hobby{
+  width: 90%;
+}
+
+}
+
+@media only screen and (max-width: 765px) {
+  .introduce-profile{
+    width: 90%;
+  }
+  .title-profile{
+    width: 90%;
+  }
+
+  .judul-hobby{
+    width: 93%;
+  }
+
+  .display-grid{
+    width: 94%;
+  }
+  
+
+}
+
+@media only screen and (max-width: 425px) {
+  .display-grid{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    width: 94%;
+  }
+
+  .introduce-profile{
+    width: 86%;
+  }
+
+  .title-profile{
+    width: 86%;
+  }
+  .judul-hobby{
+    width: 90%;
+  }
+
+}

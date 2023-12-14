@@ -1,0 +1,84 @@
+body{
+  padding: 0;
+  margin: 0;
+}
+
+.content{
+  max-width: 800px;
+  margin: auto  ;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+
+  
+}
+.introduce-profile{
+
+  width: 46%;
+  border: 2px solid black;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: rgb(232, 232, 232);
+}
+.center{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.my-foto{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  object-position: 15% 70%;
+  border: 3px solid black;
+  
+}
+
+.my-name{
+  text-align: center;
+  margin-top: 10px;
+  font-size:1.4rem;
+  font-weight: bold;
+}
+
+.title-code{
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin: auto;
+  width: 100px;
+  padding: 5px;
+  margin-top: 8px;
+  font-size: 1rem;
+  border-radius: 999px;
+}
+
+.title-profile{
+  width: 46%;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  background-color: rgb(180, 180, 180);
+  border-radius: 15px;
+  display: flex;
+  font-size: 1.5rem;
+  line-height: 2.2rem;
+  border: 2px solid black;
+}
+
+.social-media{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.link-sosial-media{
+  color: black;
+}
+
+
+
